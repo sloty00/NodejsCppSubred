@@ -60,13 +60,13 @@ This project is a simple IP calculator built with Node.js and C++. It provides b
 
     ```
 
-Response:
-
-```bash
-{
-  "ip": "192.168.1.1",
-  "network": "192.168.1.0",
-  "broadcast": "192.168.1.31",
-  "subnetMask": "255.255.255.224"
-}
-```
+    Response:
+    
+    ```bash
+    {
+      "ip": "192.168.1.1",
+      "network": "192.168.1.0",
+      "broadcast": "192.168.1.31",
+      "subnetMask": "255.255.255.224"
+    }
+    ```
