@@ -1,51 +1,48 @@
-# IP Calculator with Node.js and C++
+# Calculadora de IP con Node.js y C++
 
-This project is a simple IP calculator built with Node.js and C++. It provides basic functionality to calculate IP addresses, network details, subnet masks, and more.
+Este proyecto es una calculadora de IP simple creada con Node.js y C++. Proporciona funciones básicas para calcular direcciones IP, detalles de red, máscaras de subred y más.
 
-## Features
+## Caracteriticas
 
-- Calculate IP address details (network, broadcast, subnet mask)
-- Calculate subnets based on IP address and prefix
-- Built with Node.js and C++ for performance
+- Calcular IP address con los detalles (network, broadcast, subnet mask)
+- Calcular primer rango de subnets basada en IP and prefix
+- Construir el Node.js y C++ para Performance.
 
-## Installation
+## Instalacion
 
-1. **Clone the repository**
+1. **Clonar el Repositorio**
 
     ```bash
     git clone https://github.com/your-username/IP_Calc-NodejsCpp.git
     cd IP_Calc-NodejsCpp
     ```
 
-2. **Install dependencies**
+2. **Instalacion de dependencias**
 
-    Make sure you have Node.js installed. If not, download and install it from [nodejs.org](https://nodejs.org/).
+    Asegúrate de tener instalado Node.js. Si no es así, descárgalo e instálalo desde [nodejs.org](https://nodejs.org/).
 
     ```bash
     npm install
     ```
 
-3. **Build the C++ addon**
+3. **Construccion del C++ addon**
 
-    Ensure you have the required build tools installed. For Windows, you'll need Visual Studio Build Tools.
+    Asegúrate de tener instaladas las herramientas de compilación necesarias. Para Windows, necesitarás: Visual Studio 2022 Profesional o VS CODE.
 
     ```bash
-
     node-gyp configure
     node-gyp build
-
     ```
 
-## Usage
+## Usar
 
 1. **Start the server with:**
 
     ```bash
-
     npm start
     ```
 
-2. **The server will be running at http://localhost:3000.**
+2. **El servidor esta corriendo en: http://localhost:3000.**
 
     POST /calculate
 
