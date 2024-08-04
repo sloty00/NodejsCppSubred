@@ -36,7 +36,7 @@ Este proyecto es una calculadora de IP simple creada con Node.js y C++. Proporci
 
 ## Usar
 
-1. **Start the server with:**
+1. **Comenzar el servidor con:**
 
     ```bash
     npm start
