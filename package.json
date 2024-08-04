@@ -1,0 +1,15 @@
+{
+  "name": "ip-calculator",
+  "version": "1.0.0",
+  "description": "A simple IP calculator using C++ and Node.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build": "node-gyp configure build"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-gyp": "^10.2.0"
+  }
+}
